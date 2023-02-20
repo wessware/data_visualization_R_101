@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "5e1747a6",
+   "id": "e1640e2e",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "execution": {
-     "iopub.execute_input": "2023-02-20T08:20:33.407207Z",
-     "iopub.status.busy": "2023-02-20T08:20:33.403821Z",
-     "iopub.status.idle": "2023-02-20T08:20:34.894102Z",
-     "shell.execute_reply": "2023-02-20T08:20:34.892245Z"
+     "iopub.execute_input": "2023-02-20T08:34:32.379079Z",
+     "iopub.status.busy": "2023-02-20T08:34:32.376921Z",
+     "iopub.status.idle": "2023-02-20T08:34:33.817631Z",
+     "shell.execute_reply": "2023-02-20T08:34:33.815809Z"
     },
     "papermill": {
-     "duration": 1.498736,
-     "end_time": "2023-02-20T08:20:34.897091",
+     "duration": 1.450846,
+     "end_time": "2023-02-20T08:34:33.820940",
      "exception": false,
-     "start_time": "2023-02-20T08:20:33.398355",
+     "start_time": "2023-02-20T08:34:32.370094",
      "status": "completed"
     },
     "tags": []
@@ -45,19 +45,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "03a3ee65",
+   "id": "0a74c4a7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-02-20T08:20:34.938437Z",
-     "iopub.status.busy": "2023-02-20T08:20:34.904979Z",
-     "iopub.status.idle": "2023-02-20T08:20:34.964449Z",
-     "shell.execute_reply": "2023-02-20T08:20:34.962647Z"
+     "iopub.execute_input": "2023-02-20T08:34:33.869817Z",
+     "iopub.status.busy": "2023-02-20T08:34:33.830341Z",
+     "iopub.status.idle": "2023-02-20T08:34:33.909720Z",
+     "shell.execute_reply": "2023-02-20T08:34:33.906662Z"
     },
     "papermill": {
-     "duration": 0.06695,
-     "end_time": "2023-02-20T08:20:34.967041",
+     "duration": 0.088296,
+     "end_time": "2023-02-20T08:34:33.913113",
      "exception": false,
-     "start_time": "2023-02-20T08:20:34.900091",
+     "start_time": "2023-02-20T08:34:33.824817",
      "status": "completed"
     },
     "tags": []
@@ -100,19 +100,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "f8392874",
+   "id": "4f4f11e6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-02-20T08:20:34.975956Z",
-     "iopub.status.busy": "2023-02-20T08:20:34.974442Z",
-     "iopub.status.idle": "2023-02-20T08:20:35.288783Z",
-     "shell.execute_reply": "2023-02-20T08:20:35.287095Z"
+     "iopub.execute_input": "2023-02-20T08:34:33.924811Z",
+     "iopub.status.busy": "2023-02-20T08:34:33.923181Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.243825Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.240707Z"
     },
     "papermill": {
-     "duration": 0.321979,
-     "end_time": "2023-02-20T08:20:35.291784",
+     "duration": 0.330372,
+     "end_time": "2023-02-20T08:34:34.247521",
      "exception": false,
-     "start_time": "2023-02-20T08:20:34.969805",
+     "start_time": "2023-02-20T08:34:33.917149",
      "status": "completed"
     },
     "tags": []
@@ -133,25 +133,25 @@
     }
    ],
    "source": [
-    "loan_data <- read_csv('/kaggle/input/r-visualization-datasets/synthesized_loan_data.csv')"
+    "loan_data <- read_csv('/kaggle/input/r-visualization-datasets/synthesized_loan_data.csv', col_names=TRUE, col_types=NULL)"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "29265e91",
+   "id": "c7723d99",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-02-20T08:20:35.301573Z",
-     "iopub.status.busy": "2023-02-20T08:20:35.300076Z",
-     "iopub.status.idle": "2023-02-20T08:20:35.315179Z",
-     "shell.execute_reply": "2023-02-20T08:20:35.313252Z"
+     "iopub.execute_input": "2023-02-20T08:34:34.258778Z",
+     "iopub.status.busy": "2023-02-20T08:34:34.257205Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.272337Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.270568Z"
     },
     "papermill": {
-     "duration": 0.023014,
-     "end_time": "2023-02-20T08:20:35.318169",
+     "duration": 0.023843,
+     "end_time": "2023-02-20T08:34:34.275349",
      "exception": false,
-     "start_time": "2023-02-20T08:20:35.295155",
+     "start_time": "2023-02-20T08:34:34.251506",
      "status": "completed"
     },
     "tags": []
@@ -164,19 +164,299 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "9a41d3d6",
+   "id": "cf14ead3",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-02-20T08:20:35.327558Z",
-     "iopub.status.busy": "2023-02-20T08:20:35.326076Z",
-     "iopub.status.idle": "2023-02-20T08:20:35.362669Z",
-     "shell.execute_reply": "2023-02-20T08:20:35.360702Z"
+     "iopub.execute_input": "2023-02-20T08:34:34.286601Z",
+     "iopub.status.busy": "2023-02-20T08:34:34.285001Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.305900Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.303607Z"
     },
     "papermill": {
-     "duration": 0.043924,
-     "end_time": "2023-02-20T08:20:35.365232",
+     "duration": 0.029536,
+     "end_time": "2023-02-20T08:34:34.308784",
      "exception": false,
-     "start_time": "2023-02-20T08:20:35.321308",
+     "start_time": "2023-02-20T08:34:34.279248",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<style>\n",
+       ".list-inline {list-style: none; margin:0; padding: 0}\n",
+       ".list-inline>li {display: inline-block}\n",
+       ".list-inline>li:not(:last-child)::after {content: \"\\00b7\"; padding: 0 .5ex}\n",
+       "</style>\n",
+       "<ol class=list-inline><li>'Gender'</li><li>'Married'</li><li>'Dependents'</li><li>'Education'</li><li>'Self_Employed'</li><li>'ApplicantIncome'</li><li>'CoapplicantIncome'</li><li>'LoanAmount'</li><li>'Loan_Amount_Term'</li><li>'Credit_History'</li><li>'Property_Area'</li><li>'Loan_Status'</li></ol>\n"
+      ],
+      "text/latex": [
+       "\\begin{enumerate*}\n",
+       "\\item 'Gender'\n",
+       "\\item 'Married'\n",
+       "\\item 'Dependents'\n",
+       "\\item 'Education'\n",
+       "\\item 'Self\\_Employed'\n",
+       "\\item 'ApplicantIncome'\n",
+       "\\item 'CoapplicantIncome'\n",
+       "\\item 'LoanAmount'\n",
+       "\\item 'Loan\\_Amount\\_Term'\n",
+       "\\item 'Credit\\_History'\n",
+       "\\item 'Property\\_Area'\n",
+       "\\item 'Loan\\_Status'\n",
+       "\\end{enumerate*}\n"
+      ],
+      "text/markdown": [
+       "1. 'Gender'\n",
+       "2. 'Married'\n",
+       "3. 'Dependents'\n",
+       "4. 'Education'\n",
+       "5. 'Self_Employed'\n",
+       "6. 'ApplicantIncome'\n",
+       "7. 'CoapplicantIncome'\n",
+       "8. 'LoanAmount'\n",
+       "9. 'Loan_Amount_Term'\n",
+       "10. 'Credit_History'\n",
+       "11. 'Property_Area'\n",
+       "12. 'Loan_Status'\n",
+       "\n",
+       "\n"
+      ],
+      "text/plain": [
+       " [1] \"Gender\"            \"Married\"           \"Dependents\"       \n",
+       " [4] \"Education\"         \"Self_Employed\"     \"ApplicantIncome\"  \n",
+       " [7] \"CoapplicantIncome\" \"LoanAmount\"        \"Loan_Amount_Term\" \n",
+       "[10] \"Credit_History\"    \"Property_Area\"     \"Loan_Status\"      "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "names(loan_data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "c733b312",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-02-20T08:34:34.320384Z",
+     "iopub.status.busy": "2023-02-20T08:34:34.318820Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.337828Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.335577Z"
+    },
+    "papermill": {
+     "duration": 0.027691,
+     "end_time": "2023-02-20T08:34:34.340600",
+     "exception": false,
+     "start_time": "2023-02-20T08:34:34.312909",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<style>\n",
+       ".list-inline {list-style: none; margin:0; padding: 0}\n",
+       ".list-inline>li {display: inline-block}\n",
+       ".list-inline>li:not(:last-child)::after {content: \"\\00b7\"; padding: 0 .5ex}\n",
+       "</style>\n",
+       "<ol class=list-inline><li>'spec_tbl_df'</li><li>'tbl_df'</li><li>'tbl'</li><li>'data.frame'</li></ol>\n"
+      ],
+      "text/latex": [
+       "\\begin{enumerate*}\n",
+       "\\item 'spec\\_tbl\\_df'\n",
+       "\\item 'tbl\\_df'\n",
+       "\\item 'tbl'\n",
+       "\\item 'data.frame'\n",
+       "\\end{enumerate*}\n"
+      ],
+      "text/markdown": [
+       "1. 'spec_tbl_df'\n",
+       "2. 'tbl_df'\n",
+       "3. 'tbl'\n",
+       "4. 'data.frame'\n",
+       "\n",
+       "\n"
+      ],
+      "text/plain": [
+       "[1] \"spec_tbl_df\" \"tbl_df\"      \"tbl\"         \"data.frame\" "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "class(loan_data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "e082bf62",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-02-20T08:34:34.352561Z",
+     "iopub.status.busy": "2023-02-20T08:34:34.350978Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.370483Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.368209Z"
+    },
+    "papermill": {
+     "duration": 0.028561,
+     "end_time": "2023-02-20T08:34:34.373395",
+     "exception": false,
+     "start_time": "2023-02-20T08:34:34.344834",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "4000"
+      ],
+      "text/latex": [
+       "4000"
+      ],
+      "text/markdown": [
+       "4000"
+      ],
+      "text/plain": [
+       "[1] 4000"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "nrow(loan_data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "d982eb3c",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-02-20T08:34:34.385519Z",
+     "iopub.status.busy": "2023-02-20T08:34:34.383974Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.433375Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.431144Z"
+    },
+    "papermill": {
+     "duration": 0.058354,
+     "end_time": "2023-02-20T08:34:34.436124",
+     "exception": false,
+     "start_time": "2023-02-20T08:34:34.377770",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "12"
+      ],
+      "text/latex": [
+       "12"
+      ],
+      "text/markdown": [
+       "12"
+      ],
+      "text/plain": [
+       "[1] 12"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "ncol(loan_data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "9a16d4a5",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-02-20T08:34:34.448185Z",
+     "iopub.status.busy": "2023-02-20T08:34:34.446627Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.465068Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.462907Z"
+    },
+    "papermill": {
+     "duration": 0.027312,
+     "end_time": "2023-02-20T08:34:34.467894",
+     "exception": false,
+     "start_time": "2023-02-20T08:34:34.440582",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<style>\n",
+       ".list-inline {list-style: none; margin:0; padding: 0}\n",
+       ".list-inline>li {display: inline-block}\n",
+       ".list-inline>li:not(:last-child)::after {content: \"\\00b7\"; padding: 0 .5ex}\n",
+       "</style>\n",
+       "<ol class=list-inline><li>4000</li><li>12</li></ol>\n"
+      ],
+      "text/latex": [
+       "\\begin{enumerate*}\n",
+       "\\item 4000\n",
+       "\\item 12\n",
+       "\\end{enumerate*}\n"
+      ],
+      "text/markdown": [
+       "1. 4000\n",
+       "2. 12\n",
+       "\n",
+       "\n"
+      ],
+      "text/plain": [
+       "[1] 4000   12"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "dim(loan_data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "b1a3e7e3",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-02-20T08:34:34.480508Z",
+     "iopub.status.busy": "2023-02-20T08:34:34.479034Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.516256Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.513133Z"
+    },
+    "papermill": {
+     "duration": 0.046852,
+     "end_time": "2023-02-20T08:34:34.519367",
+     "exception": false,
+     "start_time": "2023-02-20T08:34:34.472515",
      "status": "completed"
     },
     "tags": []
@@ -257,20 +537,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
-   "id": "e231c253",
+   "execution_count": 11,
+   "id": "c3125838",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-02-20T08:20:35.375638Z",
-     "iopub.status.busy": "2023-02-20T08:20:35.374004Z",
-     "iopub.status.idle": "2023-02-20T08:20:35.444520Z",
-     "shell.execute_reply": "2023-02-20T08:20:35.442780Z"
+     "iopub.execute_input": "2023-02-20T08:34:34.532721Z",
+     "iopub.status.busy": "2023-02-20T08:34:34.531143Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.564976Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.563140Z"
     },
     "papermill": {
-     "duration": 0.078412,
-     "end_time": "2023-02-20T08:20:35.446967",
+     "duration": 0.042804,
+     "end_time": "2023-02-20T08:34:34.567407",
      "exception": false,
-     "start_time": "2023-02-20T08:20:35.368555",
+     "start_time": "2023-02-20T08:34:34.524603",
      "status": "completed"
     },
     "tags": []
@@ -381,14 +661,626 @@
   },
   {
    "cell_type": "code",
+   "execution_count": 12,
+   "id": "b7031167",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-02-20T08:34:34.581617Z",
+     "iopub.status.busy": "2023-02-20T08:34:34.579971Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.621744Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.619881Z"
+    },
+    "papermill": {
+     "duration": 0.051303,
+     "end_time": "2023-02-20T08:34:34.624160",
+     "exception": false,
+     "start_time": "2023-02-20T08:34:34.572857",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A tibble: 4000 × 1</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>LoanAmount</th></tr>\n",
+       "\t<tr><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>120.26457</td></tr>\n",
+       "\t<tr><td> 97.33355</td></tr>\n",
+       "\t<tr><td> 98.95750</td></tr>\n",
+       "\t<tr><td>141.12198</td></tr>\n",
+       "\t<tr><td>322.93678</td></tr>\n",
+       "\t<tr><td>113.08243</td></tr>\n",
+       "\t<tr><td> 71.73101</td></tr>\n",
+       "\t<tr><td> 86.84224</td></tr>\n",
+       "\t<tr><td>247.38132</td></tr>\n",
+       "\t<tr><td> 57.52351</td></tr>\n",
+       "\t<tr><td> 96.04693</td></tr>\n",
+       "\t<tr><td>107.45529</td></tr>\n",
+       "\t<tr><td>151.99357</td></tr>\n",
+       "\t<tr><td> 82.46201</td></tr>\n",
+       "\t<tr><td> 99.53966</td></tr>\n",
+       "\t<tr><td>277.21209</td></tr>\n",
+       "\t<tr><td>125.75830</td></tr>\n",
+       "\t<tr><td> 80.32886</td></tr>\n",
+       "\t<tr><td>154.05351</td></tr>\n",
+       "\t<tr><td> 98.71319</td></tr>\n",
+       "\t<tr><td> 99.38791</td></tr>\n",
+       "\t<tr><td> 85.01376</td></tr>\n",
+       "\t<tr><td>144.18466</td></tr>\n",
+       "\t<tr><td> 77.37477</td></tr>\n",
+       "\t<tr><td>157.52420</td></tr>\n",
+       "\t<tr><td>148.11388</td></tr>\n",
+       "\t<tr><td> 78.72279</td></tr>\n",
+       "\t<tr><td> 98.56886</td></tr>\n",
+       "\t<tr><td> 53.66302</td></tr>\n",
+       "\t<tr><td>101.31484</td></tr>\n",
+       "\t<tr><td>⋮</td></tr>\n",
+       "\t<tr><td>132.14920</td></tr>\n",
+       "\t<tr><td> 73.74107</td></tr>\n",
+       "\t<tr><td> 85.04195</td></tr>\n",
+       "\t<tr><td>161.04479</td></tr>\n",
+       "\t<tr><td>127.37789</td></tr>\n",
+       "\t<tr><td>252.45005</td></tr>\n",
+       "\t<tr><td>156.33061</td></tr>\n",
+       "\t<tr><td> 14.99938</td></tr>\n",
+       "\t<tr><td>155.33278</td></tr>\n",
+       "\t<tr><td>122.38441</td></tr>\n",
+       "\t<tr><td>140.33676</td></tr>\n",
+       "\t<tr><td> 91.16024</td></tr>\n",
+       "\t<tr><td>163.31450</td></tr>\n",
+       "\t<tr><td>152.43125</td></tr>\n",
+       "\t<tr><td>104.79393</td></tr>\n",
+       "\t<tr><td> 95.47853</td></tr>\n",
+       "\t<tr><td> 60.61562</td></tr>\n",
+       "\t<tr><td>131.42019</td></tr>\n",
+       "\t<tr><td>121.58088</td></tr>\n",
+       "\t<tr><td> 80.68963</td></tr>\n",
+       "\t<tr><td> 90.09948</td></tr>\n",
+       "\t<tr><td> 53.96926</td></tr>\n",
+       "\t<tr><td>102.69695</td></tr>\n",
+       "\t<tr><td>115.00828</td></tr>\n",
+       "\t<tr><td>129.57623</td></tr>\n",
+       "\t<tr><td>176.17221</td></tr>\n",
+       "\t<tr><td>117.27761</td></tr>\n",
+       "\t<tr><td>136.09887</td></tr>\n",
+       "\t<tr><td>191.73318</td></tr>\n",
+       "\t<tr><td>119.75630</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A tibble: 4000 × 1\n",
+       "\\begin{tabular}{l}\n",
+       " LoanAmount\\\\\n",
+       " <dbl>\\\\\n",
+       "\\hline\n",
+       "\t 120.26457\\\\\n",
+       "\t  97.33355\\\\\n",
+       "\t  98.95750\\\\\n",
+       "\t 141.12198\\\\\n",
+       "\t 322.93678\\\\\n",
+       "\t 113.08243\\\\\n",
+       "\t  71.73101\\\\\n",
+       "\t  86.84224\\\\\n",
+       "\t 247.38132\\\\\n",
+       "\t  57.52351\\\\\n",
+       "\t  96.04693\\\\\n",
+       "\t 107.45529\\\\\n",
+       "\t 151.99357\\\\\n",
+       "\t  82.46201\\\\\n",
+       "\t  99.53966\\\\\n",
+       "\t 277.21209\\\\\n",
+       "\t 125.75830\\\\\n",
+       "\t  80.32886\\\\\n",
+       "\t 154.05351\\\\\n",
+       "\t  98.71319\\\\\n",
+       "\t  99.38791\\\\\n",
+       "\t  85.01376\\\\\n",
+       "\t 144.18466\\\\\n",
+       "\t  77.37477\\\\\n",
+       "\t 157.52420\\\\\n",
+       "\t 148.11388\\\\\n",
+       "\t  78.72279\\\\\n",
+       "\t  98.56886\\\\\n",
+       "\t  53.66302\\\\\n",
+       "\t 101.31484\\\\\n",
+       "\t ⋮\\\\\n",
+       "\t 132.14920\\\\\n",
+       "\t  73.74107\\\\\n",
+       "\t  85.04195\\\\\n",
+       "\t 161.04479\\\\\n",
+       "\t 127.37789\\\\\n",
+       "\t 252.45005\\\\\n",
+       "\t 156.33061\\\\\n",
+       "\t  14.99938\\\\\n",
+       "\t 155.33278\\\\\n",
+       "\t 122.38441\\\\\n",
+       "\t 140.33676\\\\\n",
+       "\t  91.16024\\\\\n",
+       "\t 163.31450\\\\\n",
+       "\t 152.43125\\\\\n",
+       "\t 104.79393\\\\\n",
+       "\t  95.47853\\\\\n",
+       "\t  60.61562\\\\\n",
+       "\t 131.42019\\\\\n",
+       "\t 121.58088\\\\\n",
+       "\t  80.68963\\\\\n",
+       "\t  90.09948\\\\\n",
+       "\t  53.96926\\\\\n",
+       "\t 102.69695\\\\\n",
+       "\t 115.00828\\\\\n",
+       "\t 129.57623\\\\\n",
+       "\t 176.17221\\\\\n",
+       "\t 117.27761\\\\\n",
+       "\t 136.09887\\\\\n",
+       "\t 191.73318\\\\\n",
+       "\t 119.75630\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A tibble: 4000 × 1\n",
+       "\n",
+       "| LoanAmount &lt;dbl&gt; |\n",
+       "|---|\n",
+       "| 120.26457 |\n",
+       "|  97.33355 |\n",
+       "|  98.95750 |\n",
+       "| 141.12198 |\n",
+       "| 322.93678 |\n",
+       "| 113.08243 |\n",
+       "|  71.73101 |\n",
+       "|  86.84224 |\n",
+       "| 247.38132 |\n",
+       "|  57.52351 |\n",
+       "|  96.04693 |\n",
+       "| 107.45529 |\n",
+       "| 151.99357 |\n",
+       "|  82.46201 |\n",
+       "|  99.53966 |\n",
+       "| 277.21209 |\n",
+       "| 125.75830 |\n",
+       "|  80.32886 |\n",
+       "| 154.05351 |\n",
+       "|  98.71319 |\n",
+       "|  99.38791 |\n",
+       "|  85.01376 |\n",
+       "| 144.18466 |\n",
+       "|  77.37477 |\n",
+       "| 157.52420 |\n",
+       "| 148.11388 |\n",
+       "|  78.72279 |\n",
+       "|  98.56886 |\n",
+       "|  53.66302 |\n",
+       "| 101.31484 |\n",
+       "| ⋮ |\n",
+       "| 132.14920 |\n",
+       "|  73.74107 |\n",
+       "|  85.04195 |\n",
+       "| 161.04479 |\n",
+       "| 127.37789 |\n",
+       "| 252.45005 |\n",
+       "| 156.33061 |\n",
+       "|  14.99938 |\n",
+       "| 155.33278 |\n",
+       "| 122.38441 |\n",
+       "| 140.33676 |\n",
+       "|  91.16024 |\n",
+       "| 163.31450 |\n",
+       "| 152.43125 |\n",
+       "| 104.79393 |\n",
+       "|  95.47853 |\n",
+       "|  60.61562 |\n",
+       "| 131.42019 |\n",
+       "| 121.58088 |\n",
+       "|  80.68963 |\n",
+       "|  90.09948 |\n",
+       "|  53.96926 |\n",
+       "| 102.69695 |\n",
+       "| 115.00828 |\n",
+       "| 129.57623 |\n",
+       "| 176.17221 |\n",
+       "| 117.27761 |\n",
+       "| 136.09887 |\n",
+       "| 191.73318 |\n",
+       "| 119.75630 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "     LoanAmount\n",
+       "1    120.26457 \n",
+       "2     97.33355 \n",
+       "3     98.95750 \n",
+       "4    141.12198 \n",
+       "5    322.93678 \n",
+       "6    113.08243 \n",
+       "7     71.73101 \n",
+       "8     86.84224 \n",
+       "9    247.38132 \n",
+       "10    57.52351 \n",
+       "11    96.04693 \n",
+       "12   107.45529 \n",
+       "13   151.99357 \n",
+       "14    82.46201 \n",
+       "15    99.53966 \n",
+       "16   277.21209 \n",
+       "17   125.75830 \n",
+       "18    80.32886 \n",
+       "19   154.05351 \n",
+       "20    98.71319 \n",
+       "21    99.38791 \n",
+       "22    85.01376 \n",
+       "23   144.18466 \n",
+       "24    77.37477 \n",
+       "25   157.52420 \n",
+       "26   148.11388 \n",
+       "27    78.72279 \n",
+       "28    98.56886 \n",
+       "29    53.66302 \n",
+       "30   101.31484 \n",
+       "⋮    ⋮         \n",
+       "3971 132.14920 \n",
+       "3972  73.74107 \n",
+       "3973  85.04195 \n",
+       "3974 161.04479 \n",
+       "3975 127.37789 \n",
+       "3976 252.45005 \n",
+       "3977 156.33061 \n",
+       "3978  14.99938 \n",
+       "3979 155.33278 \n",
+       "3980 122.38441 \n",
+       "3981 140.33676 \n",
+       "3982  91.16024 \n",
+       "3983 163.31450 \n",
+       "3984 152.43125 \n",
+       "3985 104.79393 \n",
+       "3986  95.47853 \n",
+       "3987  60.61562 \n",
+       "3988 131.42019 \n",
+       "3989 121.58088 \n",
+       "3990  80.68963 \n",
+       "3991  90.09948 \n",
+       "3992  53.96926 \n",
+       "3993 102.69695 \n",
+       "3994 115.00828 \n",
+       "3995 129.57623 \n",
+       "3996 176.17221 \n",
+       "3997 117.27761 \n",
+       "3998 136.09887 \n",
+       "3999 191.73318 \n",
+       "4000 119.75630 "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "loan_data['LoanAmount']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "feaffe72",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-02-20T08:34:34.638870Z",
+     "iopub.status.busy": "2023-02-20T08:34:34.637312Z",
+     "iopub.status.idle": "2023-02-20T08:34:34.693457Z",
+     "shell.execute_reply": "2023-02-20T08:34:34.691618Z"
+    },
+    "papermill": {
+     "duration": 0.065983,
+     "end_time": "2023-02-20T08:34:34.695889",
+     "exception": false,
+     "start_time": "2023-02-20T08:34:34.629906",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A tibble: 4000 × 2</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>LoanAmount</th><th scope=col>Loan_Status</th></tr>\n",
+       "\t<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>120.26457</td><td>1</td></tr>\n",
+       "\t<tr><td> 97.33355</td><td>1</td></tr>\n",
+       "\t<tr><td> 98.95750</td><td>1</td></tr>\n",
+       "\t<tr><td>141.12198</td><td>1</td></tr>\n",
+       "\t<tr><td>322.93678</td><td>1</td></tr>\n",
+       "\t<tr><td>113.08243</td><td>1</td></tr>\n",
+       "\t<tr><td> 71.73101</td><td>0</td></tr>\n",
+       "\t<tr><td> 86.84224</td><td>0</td></tr>\n",
+       "\t<tr><td>247.38132</td><td>1</td></tr>\n",
+       "\t<tr><td> 57.52351</td><td>1</td></tr>\n",
+       "\t<tr><td> 96.04693</td><td>1</td></tr>\n",
+       "\t<tr><td>107.45529</td><td>1</td></tr>\n",
+       "\t<tr><td>151.99357</td><td>0</td></tr>\n",
+       "\t<tr><td> 82.46201</td><td>1</td></tr>\n",
+       "\t<tr><td> 99.53966</td><td>1</td></tr>\n",
+       "\t<tr><td>277.21209</td><td>0</td></tr>\n",
+       "\t<tr><td>125.75830</td><td>1</td></tr>\n",
+       "\t<tr><td> 80.32886</td><td>1</td></tr>\n",
+       "\t<tr><td>154.05351</td><td>1</td></tr>\n",
+       "\t<tr><td> 98.71319</td><td>1</td></tr>\n",
+       "\t<tr><td> 99.38791</td><td>1</td></tr>\n",
+       "\t<tr><td> 85.01376</td><td>1</td></tr>\n",
+       "\t<tr><td>144.18466</td><td>1</td></tr>\n",
+       "\t<tr><td> 77.37477</td><td>1</td></tr>\n",
+       "\t<tr><td>157.52420</td><td>1</td></tr>\n",
+       "\t<tr><td>148.11388</td><td>0</td></tr>\n",
+       "\t<tr><td> 78.72279</td><td>1</td></tr>\n",
+       "\t<tr><td> 98.56886</td><td>0</td></tr>\n",
+       "\t<tr><td> 53.66302</td><td>1</td></tr>\n",
+       "\t<tr><td>101.31484</td><td>0</td></tr>\n",
+       "\t<tr><td>⋮</td><td>⋮</td></tr>\n",
+       "\t<tr><td>132.14920</td><td>1</td></tr>\n",
+       "\t<tr><td> 73.74107</td><td>1</td></tr>\n",
+       "\t<tr><td> 85.04195</td><td>1</td></tr>\n",
+       "\t<tr><td>161.04479</td><td>1</td></tr>\n",
+       "\t<tr><td>127.37789</td><td>1</td></tr>\n",
+       "\t<tr><td>252.45005</td><td>1</td></tr>\n",
+       "\t<tr><td>156.33061</td><td>1</td></tr>\n",
+       "\t<tr><td> 14.99938</td><td>0</td></tr>\n",
+       "\t<tr><td>155.33278</td><td>1</td></tr>\n",
+       "\t<tr><td>122.38441</td><td>0</td></tr>\n",
+       "\t<tr><td>140.33676</td><td>1</td></tr>\n",
+       "\t<tr><td> 91.16024</td><td>1</td></tr>\n",
+       "\t<tr><td>163.31450</td><td>1</td></tr>\n",
+       "\t<tr><td>152.43125</td><td>0</td></tr>\n",
+       "\t<tr><td>104.79393</td><td>1</td></tr>\n",
+       "\t<tr><td> 95.47853</td><td>1</td></tr>\n",
+       "\t<tr><td> 60.61562</td><td>0</td></tr>\n",
+       "\t<tr><td>131.42019</td><td>1</td></tr>\n",
+       "\t<tr><td>121.58088</td><td>1</td></tr>\n",
+       "\t<tr><td> 80.68963</td><td>1</td></tr>\n",
+       "\t<tr><td> 90.09948</td><td>1</td></tr>\n",
+       "\t<tr><td> 53.96926</td><td>1</td></tr>\n",
+       "\t<tr><td>102.69695</td><td>0</td></tr>\n",
+       "\t<tr><td>115.00828</td><td>1</td></tr>\n",
+       "\t<tr><td>129.57623</td><td>1</td></tr>\n",
+       "\t<tr><td>176.17221</td><td>1</td></tr>\n",
+       "\t<tr><td>117.27761</td><td>1</td></tr>\n",
+       "\t<tr><td>136.09887</td><td>1</td></tr>\n",
+       "\t<tr><td>191.73318</td><td>0</td></tr>\n",
+       "\t<tr><td>119.75630</td><td>1</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A tibble: 4000 × 2\n",
+       "\\begin{tabular}{ll}\n",
+       " LoanAmount & Loan\\_Status\\\\\n",
+       " <dbl> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t 120.26457 & 1\\\\\n",
+       "\t  97.33355 & 1\\\\\n",
+       "\t  98.95750 & 1\\\\\n",
+       "\t 141.12198 & 1\\\\\n",
+       "\t 322.93678 & 1\\\\\n",
+       "\t 113.08243 & 1\\\\\n",
+       "\t  71.73101 & 0\\\\\n",
+       "\t  86.84224 & 0\\\\\n",
+       "\t 247.38132 & 1\\\\\n",
+       "\t  57.52351 & 1\\\\\n",
+       "\t  96.04693 & 1\\\\\n",
+       "\t 107.45529 & 1\\\\\n",
+       "\t 151.99357 & 0\\\\\n",
+       "\t  82.46201 & 1\\\\\n",
+       "\t  99.53966 & 1\\\\\n",
+       "\t 277.21209 & 0\\\\\n",
+       "\t 125.75830 & 1\\\\\n",
+       "\t  80.32886 & 1\\\\\n",
+       "\t 154.05351 & 1\\\\\n",
+       "\t  98.71319 & 1\\\\\n",
+       "\t  99.38791 & 1\\\\\n",
+       "\t  85.01376 & 1\\\\\n",
+       "\t 144.18466 & 1\\\\\n",
+       "\t  77.37477 & 1\\\\\n",
+       "\t 157.52420 & 1\\\\\n",
+       "\t 148.11388 & 0\\\\\n",
+       "\t  78.72279 & 1\\\\\n",
+       "\t  98.56886 & 0\\\\\n",
+       "\t  53.66302 & 1\\\\\n",
+       "\t 101.31484 & 0\\\\\n",
+       "\t ⋮ & ⋮\\\\\n",
+       "\t 132.14920 & 1\\\\\n",
+       "\t  73.74107 & 1\\\\\n",
+       "\t  85.04195 & 1\\\\\n",
+       "\t 161.04479 & 1\\\\\n",
+       "\t 127.37789 & 1\\\\\n",
+       "\t 252.45005 & 1\\\\\n",
+       "\t 156.33061 & 1\\\\\n",
+       "\t  14.99938 & 0\\\\\n",
+       "\t 155.33278 & 1\\\\\n",
+       "\t 122.38441 & 0\\\\\n",
+       "\t 140.33676 & 1\\\\\n",
+       "\t  91.16024 & 1\\\\\n",
+       "\t 163.31450 & 1\\\\\n",
+       "\t 152.43125 & 0\\\\\n",
+       "\t 104.79393 & 1\\\\\n",
+       "\t  95.47853 & 1\\\\\n",
+       "\t  60.61562 & 0\\\\\n",
+       "\t 131.42019 & 1\\\\\n",
+       "\t 121.58088 & 1\\\\\n",
+       "\t  80.68963 & 1\\\\\n",
+       "\t  90.09948 & 1\\\\\n",
+       "\t  53.96926 & 1\\\\\n",
+       "\t 102.69695 & 0\\\\\n",
+       "\t 115.00828 & 1\\\\\n",
+       "\t 129.57623 & 1\\\\\n",
+       "\t 176.17221 & 1\\\\\n",
+       "\t 117.27761 & 1\\\\\n",
+       "\t 136.09887 & 1\\\\\n",
+       "\t 191.73318 & 0\\\\\n",
+       "\t 119.75630 & 1\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A tibble: 4000 × 2\n",
+       "\n",
+       "| LoanAmount &lt;dbl&gt; | Loan_Status &lt;dbl&gt; |\n",
+       "|---|---|\n",
+       "| 120.26457 | 1 |\n",
+       "|  97.33355 | 1 |\n",
+       "|  98.95750 | 1 |\n",
+       "| 141.12198 | 1 |\n",
+       "| 322.93678 | 1 |\n",
+       "| 113.08243 | 1 |\n",
+       "|  71.73101 | 0 |\n",
+       "|  86.84224 | 0 |\n",
+       "| 247.38132 | 1 |\n",
+       "|  57.52351 | 1 |\n",
+       "|  96.04693 | 1 |\n",
+       "| 107.45529 | 1 |\n",
+       "| 151.99357 | 0 |\n",
+       "|  82.46201 | 1 |\n",
+       "|  99.53966 | 1 |\n",
+       "| 277.21209 | 0 |\n",
+       "| 125.75830 | 1 |\n",
+       "|  80.32886 | 1 |\n",
+       "| 154.05351 | 1 |\n",
+       "|  98.71319 | 1 |\n",
+       "|  99.38791 | 1 |\n",
+       "|  85.01376 | 1 |\n",
+       "| 144.18466 | 1 |\n",
+       "|  77.37477 | 1 |\n",
+       "| 157.52420 | 1 |\n",
+       "| 148.11388 | 0 |\n",
+       "|  78.72279 | 1 |\n",
+       "|  98.56886 | 0 |\n",
+       "|  53.66302 | 1 |\n",
+       "| 101.31484 | 0 |\n",
+       "| ⋮ | ⋮ |\n",
+       "| 132.14920 | 1 |\n",
+       "|  73.74107 | 1 |\n",
+       "|  85.04195 | 1 |\n",
+       "| 161.04479 | 1 |\n",
+       "| 127.37789 | 1 |\n",
+       "| 252.45005 | 1 |\n",
+       "| 156.33061 | 1 |\n",
+       "|  14.99938 | 0 |\n",
+       "| 155.33278 | 1 |\n",
+       "| 122.38441 | 0 |\n",
+       "| 140.33676 | 1 |\n",
+       "|  91.16024 | 1 |\n",
+       "| 163.31450 | 1 |\n",
+       "| 152.43125 | 0 |\n",
+       "| 104.79393 | 1 |\n",
+       "|  95.47853 | 1 |\n",
+       "|  60.61562 | 0 |\n",
+       "| 131.42019 | 1 |\n",
+       "| 121.58088 | 1 |\n",
+       "|  80.68963 | 1 |\n",
+       "|  90.09948 | 1 |\n",
+       "|  53.96926 | 1 |\n",
+       "| 102.69695 | 0 |\n",
+       "| 115.00828 | 1 |\n",
+       "| 129.57623 | 1 |\n",
+       "| 176.17221 | 1 |\n",
+       "| 117.27761 | 1 |\n",
+       "| 136.09887 | 1 |\n",
+       "| 191.73318 | 0 |\n",
+       "| 119.75630 | 1 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "     LoanAmount Loan_Status\n",
+       "1    120.26457  1          \n",
+       "2     97.33355  1          \n",
+       "3     98.95750  1          \n",
+       "4    141.12198  1          \n",
+       "5    322.93678  1          \n",
+       "6    113.08243  1          \n",
+       "7     71.73101  0          \n",
+       "8     86.84224  0          \n",
+       "9    247.38132  1          \n",
+       "10    57.52351  1          \n",
+       "11    96.04693  1          \n",
+       "12   107.45529  1          \n",
+       "13   151.99357  0          \n",
+       "14    82.46201  1          \n",
+       "15    99.53966  1          \n",
+       "16   277.21209  0          \n",
+       "17   125.75830  1          \n",
+       "18    80.32886  1          \n",
+       "19   154.05351  1          \n",
+       "20    98.71319  1          \n",
+       "21    99.38791  1          \n",
+       "22    85.01376  1          \n",
+       "23   144.18466  1          \n",
+       "24    77.37477  1          \n",
+       "25   157.52420  1          \n",
+       "26   148.11388  0          \n",
+       "27    78.72279  1          \n",
+       "28    98.56886  0          \n",
+       "29    53.66302  1          \n",
+       "30   101.31484  0          \n",
+       "⋮    ⋮          ⋮          \n",
+       "3971 132.14920  1          \n",
+       "3972  73.74107  1          \n",
+       "3973  85.04195  1          \n",
+       "3974 161.04479  1          \n",
+       "3975 127.37789  1          \n",
+       "3976 252.45005  1          \n",
+       "3977 156.33061  1          \n",
+       "3978  14.99938  0          \n",
+       "3979 155.33278  1          \n",
+       "3980 122.38441  0          \n",
+       "3981 140.33676  1          \n",
+       "3982  91.16024  1          \n",
+       "3983 163.31450  1          \n",
+       "3984 152.43125  0          \n",
+       "3985 104.79393  1          \n",
+       "3986  95.47853  1          \n",
+       "3987  60.61562  0          \n",
+       "3988 131.42019  1          \n",
+       "3989 121.58088  1          \n",
+       "3990  80.68963  1          \n",
+       "3991  90.09948  1          \n",
+       "3992  53.96926  1          \n",
+       "3993 102.69695  0          \n",
+       "3994 115.00828  1          \n",
+       "3995 129.57623  1          \n",
+       "3996 176.17221  1          \n",
+       "3997 117.27761  1          \n",
+       "3998 136.09887  1          \n",
+       "3999 191.73318  0          \n",
+       "4000 119.75630  1          "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "loan_data[c('LoanAmount', 'Loan_Status')]"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
-   "id": "204db5e4",
+   "id": "f851d88c",
    "metadata": {
     "papermill": {
-     "duration": 0.003424,
-     "end_time": "2023-02-20T08:20:35.453963",
+     "duration": 0.006153,
+     "end_time": "2023-02-20T08:34:34.708519",
      "exception": false,
-     "start_time": "2023-02-20T08:20:35.450539",
+     "start_time": "2023-02-20T08:34:34.702366",
      "status": "completed"
     },
     "tags": []
@@ -413,14 +1305,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 5.989802,
-   "end_time": "2023-02-20T08:20:35.579958",
+   "duration": 5.845156,
+   "end_time": "2023-02-20T08:34:34.836068",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-20T08:20:29.590156",
+   "start_time": "2023-02-20T08:34:28.990912",
    "version": "2.4.0"
   }
  },
